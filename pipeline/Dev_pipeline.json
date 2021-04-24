@@ -1,5 +1,5 @@
 {
-	"name": "DPPipelineOnPremtoCloud",
+	"name": "Dev_pipeline",
 	"properties": {
 		"activities": [
 			{
@@ -21,8 +21,6 @@
 				}
 			}
 		],
-		"annotations": [],
-		"lastPublishTime": "2021-04-13T17:27:32Z"
-	},
-	"type": "Microsoft.DataFactory/factories/pipelines"
+		"annotations": []
+	}
 }
