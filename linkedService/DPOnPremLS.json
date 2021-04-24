@@ -1,0 +1,16 @@
+{
+	"name": "DPOnPremLS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DPCloudVM\\MSSQLSERVER01;initial catalog=AdventureWorks2016;user id=user1",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxMjJhYWYyOS1hNDY0LTRlYTEtODhkOS05NWM2NzZlMTRmMWQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "DPOnPremIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

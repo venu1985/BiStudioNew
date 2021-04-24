@@ -1,0 +1,6 @@
+{
+	"name": "DPOnPremIR",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
