@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DPCloudADF"
+		},
+		"DPDataLakeLS_accountKey": {
+			"value": ""
+		},
+		"DPOnPremLS_connectionString": {
+			"value": ""
+		},
+		"DPDataLakeLS_properties_typeProperties_url": {
+			"value": "https://dpstoragecloud.dfs.core.windows.net"
+		}
+	}
+}
