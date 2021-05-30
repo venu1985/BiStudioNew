@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "DPCloudADF"
 		},
+		"AzureSynapseAnalytics1_connectionString": {
+			"value": ""
+		},
 		"DPDataLakeLS_accountKey": {
 			"value": ""
 		},

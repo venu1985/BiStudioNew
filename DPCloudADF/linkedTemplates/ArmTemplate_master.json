@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "DPCloudADF"
 		},
+		"AzureSynapseAnalytics1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSynapseAnalytics1'"
+		},
 		"DPDataLakeLS_accountKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'DPDataLakeLS'"
@@ -45,6 +49,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureSynapseAnalytics1_connectionString": {
+						"value": "[parameters('AzureSynapseAnalytics1_connectionString')]"
 					},
 					"DPDataLakeLS_accountKey": {
 						"value": "[parameters('DPDataLakeLS_accountKey')]"
