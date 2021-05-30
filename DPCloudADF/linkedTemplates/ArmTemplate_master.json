@@ -19,6 +19,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'DPOnPremLS'"
 		},
+		"linkedService1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'linkedService1'"
+		},
 		"DPDataLakeLS_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://dpstoragecloud.dfs.core.windows.net"
@@ -50,11 +54,14 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"AzureSynapseAnalytics1_connectionString": {
-						"value": "[parameters('AzureSynapseAnalytics1_connectionString')]"
-					},
 					"DPDataLakeLS_accountKey": {
 						"value": "[parameters('DPDataLakeLS_accountKey')]"
+					},
+					"linkedService1_connectionString": {
+						"value": "[parameters('linkedService1_connectionString')]"
+					},
+					"AzureSynapseAnalytics1_connectionString": {
+						"value": "[parameters('AzureSynapseAnalytics1_connectionString')]"
 					},
 					"DPOnPremLS_connectionString": {
 						"value": "[parameters('DPOnPremLS_connectionString')]"

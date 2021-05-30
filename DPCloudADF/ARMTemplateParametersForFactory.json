@@ -14,6 +14,9 @@
 		"DPOnPremLS_connectionString": {
 			"value": ""
 		},
+		"linkedService1_connectionString": {
+			"value": ""
+		},
 		"DPDataLakeLS_properties_typeProperties_url": {
 			"value": "https://dpstoragecloud.dfs.core.windows.net"
 		}
