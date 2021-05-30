@@ -174,7 +174,7 @@
 				"schema": [],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "datatable"
+					"table": "SalesOrderDetail"
 				}
 			},
 			"dependsOn": [
